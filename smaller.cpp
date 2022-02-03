@@ -1,12 +1,10 @@
 /*
 Author: Vicki Wu
 Course: CSCI-135
-Instructor: Tong Yi
+Instructor: Tong YiMike Zamansky
 Assignment: Lab 1A
 Prints out the smaller of two integers
 */
-
-//second comment
 
 #include <iostream>
 

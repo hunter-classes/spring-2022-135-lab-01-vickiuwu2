@@ -1,13 +1,11 @@
 /*
 Author: Vicki Wu
 Course: CSCI-135
-Instructor: Tong Yi
+Instructor: Tong Yi/Mike Zamansky
 Assignment: Lab 1B
 
 Takes in three integers
 Prints out the smallest of three integers
-3rd comment
-4th comment
 */
 
 

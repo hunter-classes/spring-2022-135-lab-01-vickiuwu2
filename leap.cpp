@@ -1,38 +1,36 @@
 /*
 Author: Vicki Wu
 Course: CSCI-135
-Instructor: Tong Yi
+Instructor: Tong YiMike Zamansky
 Assignment: Lab 1C
 
 Given input year: 
 Determines if the year is a leap year or a common year.
-3rd Comment
 */
 
 #include <iostream>
-using namespace std;
 
 int main()
     {
         int year;
-        cout << "Enter year: ";
-        cin >> year;
+        std::cout << "Enter year: ";
+        std::cin >> year;
 
         if (year % 4 != 0)
         {
-            cout << "Common year" << endl;
+            std::cout << "Common year" << std::endl;
         }
         else if (year % 100 != 0)
         {
-            cout << "Leap year" << endl;
+            std::cout << "Leap year" << std::endl;
         }
              else if (year % 400 != 0)
              {
-                 cout <<  "Common year" << endl;
+                 std::out <<  "Common year" << std::endl;
              }
                   else 
                   {
-                      cout << "Leap year" << endl;
+                      std::cout << "Leap year" << std::endl;
                   }
 
         return 0;
